@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" href="style.css" href="//fonts.googleapis.com/css?family=Play">
+<head>
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="moviePageStyle.css" rel="stylesheet" type="text/css" media="all">
+    <link href="movieStyle.css" rel="stylesheet" type="text/css" media="all">
+
+    <meta charset="UTF-8">
+    <title>Cinema</title>
+</head>
+
+<body>
+<!-Link map for header-->
+<map name="header-links">
+    <area shape="rect" coords="229,237,350,205" href="Browse.html" />
+    <area shape="rect" coords="0, 0, 190, 180" href="index.html" />
+</map>
+
+<div id="wrapper">
+    <div id="header">
+        <div id="header-img"><img usemap="#header-links" src="Images/header.png"/></div>
+    </div>
+
+        <div id="content">
+            <div id="movieContent">
+                <div id="moviePoster">
+
+                </div>
+                <div id="movieDescription">
+                    <div id="movieTitleLink">TITLE</div>
+                </div>
+
+            </div>
+            <div id="purchaseSection">
+            <p>Number of tickets</p>
+            <form>
+                Senior
+                <select id="seniorTicketNo">
+                    <option>1</option>
+                </select>
+                Adult
+                <select id="adultTicketNo">
+                    <option>1</option>
+                </select>
+                Under 18
+                <select id="minorTicketNo">
+                    <option>1</option>
+                </select>
+                <p>
+                    <div id="selectSeatsButton">
+                        <input type="submit" name="select seats"/>
+                    </div>
+                </p>
+            </form>
+        </div>
+        </div>
+    </div>
+
+    <div id="footer">
+
+    </div>
+</div>
+</body>
+</html>
